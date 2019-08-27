@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.topo{
+    width: 100%;
+    height: 100px;
+    background: #ec0b0b;
+    margin: 0 auto; 
+}
+
+.menu  a{
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 37px 50px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 37px 50px;
+    list-style-type: none;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+
+.lojaModa h1{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: flex-start;
+    font-size: 50px;
+}
+
+.lojaModa p{
+    margin: 50px 50px;
+    font-size: 20px;
+}
+
+.row p{
+    color: red;
+    font-size: 25px;
+}
+
+.row ul{
+    padding: 20px;
+}
+
+.row {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 100px;
+}
+
+.row{
+    /* Definindo o flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row img{
+    width: 60%;
+    height: 110px;
+}
+
+.row-final{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.row-final{
+    /* Definindo o flex */
+    display: flex;
+    justify-content: center;
+}
+
+.row-final p{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.row-produto img{
+    width: 500px;
+}
+.row-produto h1{
+    font-size: 35px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+}
+
+.row-produto{
+    display: flex;
+    justify-content: center; 
+    margin: 35px 0px;
+}
+
+.row-produto .sapatos h2{
+    background-color: #ec0b0b;
+    color: white;
+    width: 500px;
+    padding: 150px 210px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.row-produto .roupas h2{
+    background-color: #ec0b0b;
+    color: white;
+    width: 500px;
+    padding: 150px 210px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.row-produto .sapatos{
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+}
+
+.row-produto .roupas{
+    display: flex;
+    flex-direction: row;
+}
